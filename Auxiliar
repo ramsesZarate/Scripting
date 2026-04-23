@@ -1,0 +1,6 @@
+/opt/ibm/db2/V11.5/bin/db2level
+/opt/informix_14.10.FC7/bin/oninit -V
+/opt/informix_14.10.FC7/bin/dbaccess -V
+/opt/cdcdb2/bin/dmts64 -version
+/opt/cdcdb2/bin/dmts64 -v
+/opt/cdcdb2/bin/dmts64 -V
