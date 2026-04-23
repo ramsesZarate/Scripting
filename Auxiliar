@@ -4,3 +4,34 @@
 /opt/cdcdb2/bin/dmts64 -version
 /opt/cdcdb2/bin/dmts64 -v
 /opt/cdcdb2/bin/dmts64 -V
+
+1
+[root@cdc01 Test]# /opt/ibm/db2/V11.5/bin/db2level
+QL10007N Message "-10003" could not be retrieved.  Reason code: "3".
+
+2
+[root@cdc01 Test]# /opt/informix_14.10.FC7/bin/oninit -V
+no such directory: /usr/informix/lib
+No such file or directory (errno 2)
+IBM Informix Dynamic Server Version 14.10.FC7DE
+ Sat Oct 23 11:11:04 CDT 2021
+
+3
+[root@cdc01 Test]# /opt/informix_14.10.FC7/bin/dbaccess -V
+-23101 Unable to load locale categories.
+
+4
+/opt/cdcdb2/bin/dmts64 -version
+dmts64 cannot be run as root
+
+5
+[root@cdc01 Test]# /opt/cdcdb2/bin/dmts64 -v
+dmts64 cannot be run as root
+
+6
+[root@cdc01 Test]# /opt/cdcdb2/bin/dmts64 -V
+dmts64 cannot be run as root
+
+
+
+v5v
