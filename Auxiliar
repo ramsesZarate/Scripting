@@ -6,3 +6,56 @@ find /opt/informix_14.10.FC7 -maxdepth 3 \( -iname "*version*" -o -iname "*relea
 find /opt /usr /IBM -name imcl 2>/dev/null
 
 
+drwxrw-r--. 15 db2inst1 db2iadm1   193 Feb 23  2023 /opt/cdcdb2
+drwxr-x---.  2 db2inst1 db2iadm1  4096 Jun 27  2022 /opt/cdcdb2/bin
+-rwxr-x---.  1 db2inst1 db2iadm1 40688 Feb  1  2023 /opt/cdcdb2/bin/dmts64
+[root@cdc01 Test]# find /opt/cdcdb2 -maxdepth 4 \( -iname "*version*" -o -iname "*release*" -o -iname "*build*" -o -iname "*.txt" -o -iname "*.xml" \) 2>/dev/null
+/opt/cdcdb2/samples/jmsScraperConf.xml
+/opt/cdcdb2/samples/db2z-call-wlm-refresh.txt
+/opt/cdcdb2/samples/db2z-create-user.txt
+/opt/cdcdb2/samples/db2z-grant-racf.txt
+/opt/cdcdb2/samples/db2z-grant-sql.txt
+/opt/cdcdb2/samples/db2z-linkedit-jcl.txt
+/opt/cdcdb2/samples/db2z-test-stored-proc.txt
+/opt/cdcdb2/bin/dmshowversion
+/opt/cdcdb2/conf/nzloadoptions.xml
+/opt/cdcdb2/conf/db2loadoptions.xml
+/opt/cdcdb2/conf/dmshowversion.vmargs
+/opt/cdcdb2/3rdPartyLicenses/apache_xml_apis_license.txt
+/opt/cdcdb2/license/Czech.txt
+/opt/cdcdb2/license/English.txt
+/opt/cdcdb2/license/French.txt
+/opt/cdcdb2/license/German.txt
+/opt/cdcdb2/license/Greek.txt
+/opt/cdcdb2/license/Indonesian.txt
+/opt/cdcdb2/license/Italian.txt
+/opt/cdcdb2/license/Japanese.txt
+/opt/cdcdb2/license/Korean.txt
+/opt/cdcdb2/license/Lithuanian.txt
+/opt/cdcdb2/license/Polish.txt
+/opt/cdcdb2/license/Portuguese.txt
+/opt/cdcdb2/license/Russian.txt
+/opt/cdcdb2/license/Slovenian.txt
+/opt/cdcdb2/license/Spanish.txt
+/opt/cdcdb2/license/Chinese.txt
+/opt/cdcdb2/license/Chinese_TW.txt
+/opt/cdcdb2/license/Turkish.txt
+/opt/cdcdb2/license/notices.txt
+/opt/cdcdb2/jre64/docs/de/readme.txt
+/opt/cdcdb2/jre64/docs/ja/readme.txt
+/opt/cdcdb2/jre64/docs/es/readme.txt
+/opt/cdcdb2/jre64/docs/ko/readme.txt
+/opt/cdcdb2/jre64/docs/zh/readme.txt
+/opt/cdcdb2/jre64/docs/en/notices.txt
+/opt/cdcdb2/jre64/docs/en/readme.txt
+/opt/cdcdb2/jre64/docs/pt_BR/readme.txt
+/opt/cdcdb2/jre64/docs/zh_TW/readme.txt
+/opt/cdcdb2/jre64/docs/es_CA/readme.txt
+/opt/cdcdb2/jre64/docs/fr/readme.txt
+/opt/cdcdb2/jre64/docs/cs/readme.txt
+/opt/cdcdb2/jre64/jre/bin/dmshowversion-java
+/opt/cdcdb2/jre64/jre/lib/ibmversions.txt
+/opt/cdcdb2/jre64/jre/lib/jvm.hprof.txt
+/opt/cdcdb2/jre64/jre/lib/version.properties
+/opt/cdcdb2/jre64/notices.txt
+/opt/cdcdb2/jre64/readme.txt
