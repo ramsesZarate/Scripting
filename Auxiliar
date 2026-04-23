@@ -1,3 +1,15 @@
 /opt/cdcdb2/bin/dmshowversion
 
-su - db2inst1 -c '/opt/cdcdb2/bin/dmshowversion'
+[root@cdc01 Test]# su - db2inst1 -c '/opt/cdcdb2/bin/dmshowversion'
+VERSION INFORMATION
+Product: IBM Data Replication (IBM DB2)
+Version: 11.4.0.4 
+Build: master_5666
+Date: Feb 1, 2023
+Time: 12:12:00 PM
+SYSTEM INFORMATION
+Host name: CDC01.DE.IBM.COM
+Number of CPUs: 8
+Current date: April 23, 2026 (2026-04-23)
+
+
