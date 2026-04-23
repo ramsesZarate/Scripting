@@ -1,4 +1,18 @@
-su - db2inst1 -c '/opt/ibm/db2/V11.5/bin/db2level'
-su - db2inst1 -c '. ~/sqllib/db2profile >/dev/null 2>&1; /opt/ibm/db2/V11.5/bin/db2level'
-su - db2inst1 -c '/opt/ibm/db2/V11.5/adm/db2licm -l'
+[root@cdc01 Test]# su - db2inst1 -c '/opt/ibm/db2/V11.5/bin/db2level'
+DB21085I  This instance or install (instance name, where applicable: 
+"db2inst1") uses "64" bits and DB2 code release "SQL11054" with level 
+identifier "0605010F".
+Informational tokens are "DB2 v11.5.4.0", "s2006161200", "DYN2006161200AMD64", 
+and Fix Pack "0".
+Product is installed at "/opt/ibm/db2/V11.5".
 
+[root@cdc01 Test]# su - db2inst1 -c '. ~/sqllib/db2profile >/dev/null 2>&1; /opt/ibm/db2/V11.5/bin/db2level'
+DB21085I  This instance or install (instance name, where applicable: 
+"db2inst1") uses "64" bits and DB2 code release "SQL11054" with level 
+identifier "0605010F".
+Informational tokens are "DB2 v11.5.4.0", "s2006161200", "DYN2006161200AMD64", 
+and Fix Pack "0".
+Product is installed at "/opt/ibm/db2/V11.5".
+
+[root@cdc01 Test]# su - db2inst1 -c '/opt/ibm/db2/V11.5/adm/db2licm -l'
+-bash: /opt/ibm/db2/V11.5/adm/db2licm: Permission denied
